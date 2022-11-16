@@ -1,0 +1,41 @@
+@font-face{ 
+	font-family: 'DS-Digital'; 
+ 	src: url('./font/DS-DIGIB.TTF') format('truetype'); 
+}
+
+body {
+	overflow: hidden; /* Pour suprimer ce qui sort de l'écran */
+	min-height: 100vh;
+	cursor: crosshair;
+}
+
+h3 {
+	font-size: 10rem;
+	text-align: center;
+	margin-top: 20px;
+	color: rgba(128, 128, 128, 0.55);
+	font-family: DS-Digital, Impact, "Arial Black", Arial, sans-serif;	
+}
+
+.bubble {
+	position: absolute;
+	border-radius: 300px;
+	background: rgba(255, 166, 0, 0.6);
+	opacity: 0;
+	animation: anim 9s forwards;
+	filter: hue-rotate(0deg);
+	
+	-moz-box-shadow:inset 4px 5px  5px 0 rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow:inset 5px 4px  5px 0 rgba(255, 255, 255, 0.7);
+	box-shadow:inset 4px 5px 5px 0 rgba(255, 255, 255, 0.7);
+}
+
+@keyframes anim {
+	to {
+		top: -260px; /* Fait monter les bulles */
+		left: var(--left); /* pour injecter la valeur depuis JavaScript */
+		opacity: 1;
+		filter: hue-rotate(720deg); /* Fait changer la couleur des bulles */
+	}
+}
+
