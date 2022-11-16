@@ -1,0 +1,128 @@
+img{
+	transition: transform .1s;
+}
+
+/* ------------------------------------ */ 
+/* Appliquer un filtre d'agrandissement */
+/* ------------------------------------ */ 
+.image-zoom1 hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+
+/* ------------------------------------ */ 
+/* Appliquer un filtre d'agrandissement */
+/* ------------------------------------ */ 
+.image-zoom2 hover{
+	-ms-transform: scale(3) translate(-30px); /* IE 9 */
+	-webkit-transform: scale(3) translate(-30px); /* Safari 3-8 */
+	transform: scale(3) translate(-30px);
+}
+
+/* ---------------------------------------------------- */ 
+/* Appliquer un filtre Css de flou gaussien avec blur() */
+/* ---------------------------------------------------- */ 
+.image-flou hover {
+  -webkit-filter : blur(10px); /* Chrome, Safari, Opera */
+  filter : blur(10px);
+}
+
+
+/* px peut être remplacé par une autre unité de longueur sauf l'unité % */
+
+/* -------------------------------------------------------- */ 
+/*  Appliquer un filtre Css de luminosité avec brightness() */ 
+/* -------------------------------------------------------- */ 
+.image-foncee hover {
+  -webkit-filter : brightness(20%); /* Chrome, Safari, Opera */
+  filter : brightness(20%);
+}
+/* 100% pas de changement sur l'image */
+
+/* ----------------------------------------------------- */ 
+/*  Appliquer un filtre Css de contraste avec contrast() */ 
+/* ----------------------------------------------------- */ 
+.image-contrastee hover {
+  -webkit-filter : contrast(20%); /* Chrome, Safari, Opera */
+  filter : contrast(20%);
+}
+/* 100% pas de changement sur l'image */
+
+
+/* ------------------------------------------------------------- */ 
+/*  Appliquer un filtre Css de niveaux de gris avec grayscale()  */ 
+/* ------------------------------------------------------------- */ 
+.image-grise hover {
+  -webkit-filter : grayscale(100%); /* Chrome, Safari, Opera */
+  filter : grayscale(100%);
+}
+/* 0% pas de changement sur l'image */
+
+
+/* ---------------------------------------------------------------- */ 
+/*  Appliquer un filtre Css de rotation de teinte avec hue-rotate() */ 
+/* ---------------------------------------------------------------- */ 
+.couleurs-melangees hover {
+  -webkit-filter : hue-rotate(-390deg); /* Chrome, Safari, Opera */
+  filter : hue-rotate(-390deg);
+}
+/* 360deg pas de changement sur l'image */
+
+
+/* --------------------------------------------------------------- */ 
+/*  Appliquer un filtre Css d'inversion des couleurs avec invert() */ 
+/* --------------------------------------------------------------- */ 
+.couleurs-inversees hover {
+  -webkit-filter : invert(20%); /* Chrome, Safari, Opera */
+  filter : invert(20%);
+}
+/* 0% pas de changement sur l'image */
+
+
+/* ------------------------------------------------- */ 
+/*  Appliquer un filtre Css d'opacité avec opacity() */ 
+/* ------------------------------------------------- */ 
+.image-opaque hover {
+  -webkit-filter : opacity(20%); /* Chrome, Safari, Opera */
+  filter : opacity(20%);
+}
+/* 100% pas de changement sur l'image */
+
+
+/* -------------------------------------------------------------------- */ 
+/*  Appliquer un filtre Css de saturation des couleurs avec saturate()  */ 
+/* -------------------------------------------------------------------- */ 
+.couleurs-saturees hover {
+  -webkit-filter : saturate(90%); /* Chrome, Safari, Opera */
+  filter : saturate(90%);
+}
+/* 100% pas de changement sur l'image */
+
+
+/* ------------------------------------------- */ 
+/*  Appliquer un filtre Css sépia avec sepia() */ 
+/* ------------------------------------------- */ 
+.image-sepia hover {
+  -webkit-filter : sepia(20%); /* Chrome, Safari, Opera */
+  filter : sepia(20%);
+}
+/* 0% pas de changement sur l'image */
+
+
+/* ------------------------------------------------------- */ 
+/*  Appliquer un filtre Css d'ombre Css avec drop-shadow() */ 
+/*      Décalage Horizontal - Vertical - Flou - Couleur    */ 
+/* ------------------------------------------------------- */ 
+.image-ombre hover {
+  -webkit-filter: drop-shadow(20px 30px 16px #000); /* Chrome, Safari, Opera */
+  -moz-filter: drop-shadow(20px 30px 16px #000); 
+  filter: drop-shadow(-20px 30px 16px #000);
+}
+/* sCommentaire */
+
+
+------------------------------------- */ 
+
+
