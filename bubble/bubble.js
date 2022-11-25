@@ -1,5 +1,7 @@
-const counterDisplay = document.querySelector('h3');
+const pointDisplay = document.querySelector('h3');
+const counterDisplay = document.querySelector('span');
 let counter = 0;
+let point = 0;
 
 const bubbleMaker = () => {
 	const bubble = document.createElement("span");
@@ -19,10 +21,12 @@ const bubbleMaker = () => {
 
 	const plusMinus = Math.random() > 0.5 ? 1 : -1; /* comme un IF */
 	bubble.style.setProperty("--left", Math.random () * 100 * plusMinus + "%");
+	counter++;
+	counterDisplay.textContent = counter;
 
 	bubble.addEventListener("click", () => {
-		counter++;
-		counterDisplay.textContent = counter; /* Remplace le texte dans h3 par la nouvelle valeur */
+		point++;
+		pointDisplay.textContent = point; /* Remplace le texte dans h3 par la nouvelle valeur */
 		bubble.remove();
 	});
 
