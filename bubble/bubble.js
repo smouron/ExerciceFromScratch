@@ -16,10 +16,12 @@ const bubbleMaker = () => {
 	bubble.style.width = sizeAround;
 
 	// Donne une position aléatoire
-	bubble.style.top = Math.random() * 60 + 50 + "%";
+	// bubble.style.top = Math.random() * 60 + 50 + "%";
+	bubble.style.top = 60 + 50 + "%";
 	bubble.style.left = Math.random() * 100 + "%";
 
 	const plusMinus = Math.random() > 0.5 ? 1 : -1; /* comme un IF */
+	/* déplacement aléatoire sur l'horizontale */
 	bubble.style.setProperty("--left", Math.random () * 100 * plusMinus + "%");
 	counter++;
 	counterDisplay.textContent = counter;
@@ -30,10 +32,10 @@ const bubbleMaker = () => {
 		bubble.remove();
 	});
 
-	// Supprimer automatiquement la bulle au bout de 6s
+	// Supprimer automatiquement la bulle au bout de 8s
 	setTimeout(() => { 
 		bubble.remove();
-	},6000);
+	},8000);
 };
 
 bubbleMaker();
