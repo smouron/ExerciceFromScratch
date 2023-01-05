@@ -19,3 +19,5 @@ Mais également des essais effectués suite à certains cours.
 
 - Bubble
 - Calculatrice
+- Intégration Helium avec ajout effet sur la souris
+- Scroll NavBar et Scroll Popup : exercices sur la gestion du scroll en Java Script
