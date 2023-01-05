@@ -1,0 +1,129 @@
+/* Différents types de pointer */
+.testcursor {
+  cursor: zoom;
+}
+
+.alias {
+  cursor: alias;
+}
+.all-scroll {
+  cursor: all-scroll;
+}
+.auto {
+  cursor: auto;
+}
+
+/* Signe PLUS */
+.cell {
+  cursor: cell;
+}
+
+/* Redimension en largeur */
+.col-resize {
+  cursor: col-resize;
+}
+.context-menu {
+  cursor: context-menu;
+}
+.copy {
+  cursor: copy;
+}
+
+/* Une croix */
+.crosshair {
+  cursor: crosshair;
+}
+.default {
+  cursor: default;
+}
+.e-resize {
+  cursor: e-resize;
+}
+.ew-resize {
+  cursor: ew-resize;
+}
+
+/* La main */
+.grab {
+  cursor: grab;
+}
+.grabbing {
+  cursor: grabbing;
+}
+.help {
+  cursor: help;
+}
+.move {
+  cursor: move;
+}
+.n-resize {
+  cursor: n-resize;
+}
+.ne-resize {
+  cursor: ne-resize;
+}
+.nesw-resize {
+  cursor: nesw-resize;
+}
+.ns-resize {
+  cursor: ns-resize;
+}
+.nw-resize {
+  cursor: nw-resize;
+}
+.nwse-resize {
+  cursor: nwse-resize;
+}
+.no-drop {
+  cursor: no-drop;
+}
+
+/* Aucun */
+.none {
+  cursor: none;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+
+/* Main avec index levé */
+.pointer {
+  cursor: pointer;
+}
+.progress {
+  cursor: progress;
+}
+.row-resize {
+  cursor: row-resize;
+}
+.s-resize {
+  cursor: s-resize;
+}
+.se-resize {
+  cursor: se-resize;
+}
+.sw-resize {
+  cursor: sw-resize;
+}
+.text {
+  cursor: text;
+}
+.url {
+  cursor: url(myBall.cur), auto;
+}
+.w-resize {
+  cursor: w-resize;
+}
+.wait {
+  cursor: wait;
+}
+
+/* Loupe avec + */
+.zoom-in {
+  cursor: zoom-in;
+}
+
+/* loupe avec - */
+.zoom-out {
+  cursor: zoom-out;
+}

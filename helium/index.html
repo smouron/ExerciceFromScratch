@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP 4 - Intégrer et faire la mise ne page de la maquette Helium</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TP JS 1 - Helium - Mouse effect</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/cursor.css">
 </head>
 
-<body">
+<body>
+    <span class="mouse" id="mouse1"></span>
+    <span class="mouse" id="mouse2"></span>
+    <span class="mouse" id="mouse3"></span>
     <nav>
         <h2>Helium</h2>
         <ul type="none">
@@ -19,16 +23,18 @@
         </ul>
     </nav>
     <header>
+
         <div class="header-left">
             <div class="header-left-container">
                 <h1>People-Powered Network</h1>
                 <h3>Start a Wireless Revolution</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi at aperiam earum ducimus quisquam
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi at aperiam earum
+                    ducimus quisquam
                     illo.</p>
             </div>
         </div>
         <div class="header-right">
-            <img src=".\img\main.png" alt="main.png" id="header-right">
+            <img src="./assets/img/main.png" alt="main.png" id="header-right">
         </div>
     </header>
     <section class="infos">
@@ -44,13 +50,16 @@
             <h3>Our Investors</h3>
             <div class="investor">
                 <div class="img-container">
-                    <a href="#"><img src=".\img\investlogo2blue.png" alt="Investor-2"></a>
-                    <a href="#"><img src=".\img\investlogo3blue.png" alt="Investor-3"></a>
-                    <a href="#"><img src=".\img\investlogo4blue.png" alt="Investor-4"></a>
+                    <a href="#"><img src="./assets/img/investlogo2blue.png" alt="Investor-2"></a>
+                    <a href="#"><img src="./assets/img/investlogo3blue.png" alt="Investor-3"></a>
+                    <a href="#"><img src="./assets/img/investlogo4blue.png" alt="Investor-4"></a>
                 </div>
             </div>
         </div>
     </section>
-    </body>
+
+    <!-- Le fichier JS doit être lu en dernier (le plus bas possible) -->
+    <script src="./assets/js/index.js"></script>
+</body>
 
 </html>
