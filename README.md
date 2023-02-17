@@ -17,7 +17,11 @@ Mais également des essais effectués suite à certains cours.
 
 #### JAVASCRIPT
 
-- Bubble
-- Calculatrice
+- Bubble : exercice de générateur de bulles cliquables
+- Calculatrice : exercice de réalisation d'une calculatrice
 - Intégration Helium avec ajout effet sur la souris
 - Scroll NavBar et Scroll Popup : exercices sur la gestion du scroll en Java Script
+- Password-maker : exercice pour réaliser un outils pour générer des mots de passe
+
+### Résultats visibles à ce lien
+https://www.sanoecreation.fr/FromScratch/index.html
