@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Pour empêcher tous les moteurs de recherche compatibles -->
+    <meta name="robots" content="noindex, nofllow">
+    <!-- Pour empêcher que les robots d'exploration Google d'indexer une page -->
+    <meta name="googlebot" content="noindex">
+
     <title>Java Script 3/6 - Password maker</title>
     <link href="./style.css" rel="stylesheet">
 
@@ -12,24 +17,28 @@
 
 <body>
     <div class="app">
-        <input type="text" id="password-output" value="Générateur de MDP" readonly>
+        <h1>Générateur de mots de passe</h1>
+        <input type="text" id="password-output" value="Choisissez vos options" readonly>
 
         <div class="range-container">
             <input type="range" id="password-length" min="4" max="24" value="8"
+                alt="Nombre de caractères dans le mots de passe"
+                title="Selection du nombre de caractères dans le mots de passe"
                 oninput="document.getElementById('display-password-length').value=this.value">
-            <input type="text" id="display-password-length" value="8" readonly>
+            <input type="text" id="display-password-length" value="8"
+                alt="Affichage du nombre de caractères dans le mots de passe" readonly>
             <div class="checkbox-container">
-                <input type="checkbox" id="lowercase" checked>
-                <label for="lowercase">a-z</label>
+                <input type="checkbox" id="lowercase" alt="Lettres minuscules oui ou non dans le mote de passe" checked>
+                <label for="lowercase" title="Bouton pour avoir des lettres minuscules">a-z</label>
 
-                <input type="checkbox" id="uppercase">
-                <label for="uppercase">A-Z</label>
+                <input type="checkbox" id="uppercase" alt="Lettres majuscules oui ou non dans le mote de passe">
+                <label for="uppercase" title="Bouton pour avoir des lettres majuscules">A-Z</label>
 
-                <input type="checkbox" id="numbers">
-                <label for="numbers">0-9</label>
+                <input type="checkbox" id="numbers" alt="Nombres oui ou non dans le mote de passe">
+                <label for="numbers" title="Bouton pour avoir des nombres">0-9</label>
 
-                <input type="checkbox" id="symbols">
-                <label for="symbols">!-?</label>
+                <input type="checkbox" id="symbols" alt="Caractères spéciaux oui ou non dans le mote de passe">
+                <label for="symbols" title="Bouton pour avoir des caractères spéciaux">!-?</label>
             </div>
 
             <button id="generateButton">Générer un mot de passe</button>
