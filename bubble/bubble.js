@@ -1,7 +1,5 @@
-const pointDisplay = document.querySelector('h3');
-const counterDisplay = document.querySelector('span');
+const counterDisplay = document.querySelector('h3');
 let counter = 0;
-let point = 0;
 
 const bubbleMaker = () => {
 	const bubble = document.createElement("span");
@@ -16,26 +14,22 @@ const bubbleMaker = () => {
 	bubble.style.width = sizeAround;
 
 	// Donne une position aléatoire
-	// bubble.style.top = Math.random() * 60 + 50 + "%";
-	bubble.style.top = 60 + 50 + "%";
+	bubble.style.top = Math.random() * 60 + 50 + "%";
 	bubble.style.left = Math.random() * 100 + "%";
 
 	const plusMinus = Math.random() > 0.5 ? 1 : -1; /* comme un IF */
-	/* déplacement aléatoire sur l'horizontale */
 	bubble.style.setProperty("--left", Math.random () * 100 * plusMinus + "%");
-	counter++;
-	counterDisplay.textContent = counter;
 
 	bubble.addEventListener("click", () => {
-		point++;
-		pointDisplay.textContent = point; /* Remplace le texte dans h3 par la nouvelle valeur */
+		counter++;
+		counterDisplay.textContent = counter; /* Remplace le texte dans h3 par la nouvelle valeur */
 		bubble.remove();
 	});
 
-	// Supprimer automatiquement la bulle au bout de 8s
+	// Supprimer automatiquement la bulle au bout de 6s
 	setTimeout(() => { 
 		bubble.remove();
-	},8000);
+	},6000);
 };
 
 bubbleMaker();
