@@ -20,10 +20,10 @@ Mais également des essais effectués suite à certains cours.
 - Bubble : exercice de générateur de bulles cliquables
 - Calculatrice : exercice de réalisation d'une calculatrice
 - Intégration Helium : ajout effet sur la souris
-- Sidebar : exercices sur la gestion d'évenments avec JS en fonction de la position de la souris
-- Scroll Popup : exercices sur la gestion d'évenments avec JS en fonction de la position de la souris et des éléments sur le DOM
+- Scroll Popup : exercice sur la gestion d'évenments avec JS en fonction de la position de la souris et des éléments sur le DOM
 - Color Generator : suite au cours pour apprendre à interagir avec les éléments du DOM avec JS
 - Password Maker : exercice pour réaliser un outils pour générer des mots de passe
+- Country Api : exercice pour apprendre à manipuler une Api. Ici, on utilise restcountries.com. 
 
 > [!NOTE]
 > Pour Password Maker, les éléments CSS qui sont utilisés durant le cours ne sont pas compatibles avec Firefox. J'ai dû apporter les corrections nécessaires pour que le site fonctionne également avec Firefox.
@@ -46,6 +46,6 @@ Mais également des essais effectués suite à certains cours.
 
 [Password Maker](https://stephane-mouron.fr/FromScratch/password-maker/index.html)
 
-[Sidebar](https://stephane-mouron.fr/FromScratch/sidebar/index.html)
-
 [Color Generator](https://stephane-mouron.fr/FromScratch/color-generator/index.html)
+
+[Country Api](https://stephane-mouron.fr/FromScratch/country-api/index.html)
