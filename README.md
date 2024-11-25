@@ -28,24 +28,20 @@ Mais également des essais effectués suite à certains cours.
 > [!NOTE]
 > Pour Password Maker, les éléments CSS qui sont utilisés durant le cours ne sont pas compatibles avec Firefox. J'ai dû apporter les corrections nécessaires pour que le site fonctionne également avec Firefox.
 
-### Les liens des différents projets
+### Les liens des différents projets qui sont en ligne
 
-[Helium (sans JS)](https://stephane-mouron.fr/FromScratch/helium/sans-js/index.html)
+[Gaming-Campus](https://exercices.stephane-mouron.com/gaming-campus/index.html)
 
-[Helium (avec JS)](https://stephane-mouron.fr/FromScratch/helium/avec-js/index.html)
+[Run](https://exercices.stephane-mouron.com/run/index.html)
 
-[Gaming-Campus](https://stephane-mouron.fr/FromScratch/gaming-campus/index.html)
+[Générateur de bulles "Bubble"](https://exercices.stephane-mouron.com/bubble/)
 
-[Run](https://stephane-mouron.fr/FromScratch/run/index.html)
+[Calculatrice](https://exercices.stephane-mouron.com/calculatrice/)
 
-[Générateur de bulles "Bubble"](https://stephane-mouron.fr/FromScratch/bubble/index.html)
+[Scroll Popup](https://exercices.stephane-mouron.com/scroll-popup/)
 
-[Calculatrice](https://stephane-mouron.fr/FromScratch/calculatrice/index.html)
+[Password Maker](https://exercices.stephane-mouron.com/password-maker/)
 
-[Scroll Popup](https://stephane-mouron.fr/FromScratch/scroll-popup/index.html)
+[Color Generator](https://exercices.stephane-mouron.com/color-generator/)
 
-[Password Maker](https://stephane-mouron.fr/FromScratch/password-maker/index.html)
-
-[Color Generator](https://stephane-mouron.fr/FromScratch/color-generator/index.html)
-
-[Country Api](https://stephane-mouron.fr/FromScratch/country-api/index.html)
+[Country Api](https://exercices.stephane-mouron.com/country-api/)
